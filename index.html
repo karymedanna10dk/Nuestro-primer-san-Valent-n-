@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Nuestro primer San Valentín</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;1,400&family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+
+  <style>
+    body {
+      margin: 0;
+      background-color: #f7f3ef;
+      font-family: 'Montserrat', sans-serif;
+      color: #5a4a42;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 60px 30px;
+      background: white;
+    }
+
+    h1 {
+      font-family: 'Playfair Display', serif;
+      text-align: center;
+      font-size: 42px;
+      margin-bottom: 60px;
+      color: #7a5c52;
+    }
+
+    .polaroids {
+      display: flex;
+      justify-content: center;
+      gap: 30px;
+      flex-wrap: wrap;
+      margin-bottom: 70px;
+    }
+
+    .polaroid {
+      background: #fff;
+      padding: 15px 15px 40px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+      transform: rotate(-2deg);
+    }
+
+    .polaroid:nth-child(2) {
+      transform: rotate(2deg);
+    }
+
+    .polaroid img {
+      width: 220px;
+    }
+
+    .letter {
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      line-height: 1.8;
+      margin-bottom: 80px;
+      color: #6b4f4f;
+    }
+
+    .vinyls {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 40px;
+      margin-bottom: 80px;
+      text-align: center;
+    }
+
+    .vinyl img {
+      width: 180px;
+      margin-bottom: 15px;
+    }
+
+    .vinyl p {
+      font-size: 15px;
+      font-style: italic;
+    }
+
+    .btn {
+      display: block;
+      width: fit-content;
+      margin: auto;
+      padding: 15px 40px;
+      background: #d6b7b0;
+      color: white;
+      text-decoration: none;
+      font-family: 'Playfair Display', serif;
+      font-size: 20px;
+      border-radius: 30px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+
+    <h1>Nuestro primer San Valentín</h1>
+
+    <div class="polaroids">
+      <div class="polaroid"><img src="polaroid1.jpg"></div>
+      <div class="polaroid"><img src="polaroid2.jpg"></div>
+      <div class="polaroid"><img src="polaroid3.jpg"></div>
+    </div>
+
+    <div class="letter">
+      <p>Muñequita,</p>
+      <p>No sabía que en tan poquito tiempo se pudiera amar tan profundo. Pero llegaste tú y todo se volvió suave, real, hogar.</p>
+      <p>Amor, gracias por estos cinco meses, por tu ternura y por elegirme cada día.</p>
+      <p>Este es nuestro primer San Valentín y quiero preguntarte algo especial.</p>
+    </div>
+
+    <div class="vinyls">
+      <div class="vinyl">
+        <img src="vinyl1.jpg">
+        <p>Contigo todo se siente más lento, más bonito, más real.</p>
+      </div>
+
+      <div class="vinyl">
+        <img src="vinyl2.jpg">
+        <p>Eres mi lugar seguro, incluso cuando todo pesa.</p>
+      </div>
+
+      <div class="vinyl">
+        <img src="vinyl3.jpg">
+        <p>Te elijo sin miedo. Te llamo mía con el corazón abierto.</p>
+      </div>
+    </div>
+
+    <a class="btn" href="https://facetime.apple.com">
+      ¿Quieres ser mi San Valentín?
+    </a>
+
+  </div>
+</body>
+</html>
